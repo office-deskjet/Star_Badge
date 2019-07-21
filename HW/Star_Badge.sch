@@ -752,7 +752,7 @@ GPIO_1_2
 Text Label 2520 5900 1    50   ~ 0
 GPIO_2_1
 Text Label 2520 7000 3    50   ~ 0
-GPIO_1_2
+GPIO_2_2
 $Comp
 L dk_Tactile-Switches:TL3315NF160Q S1
 U 1 1 5D40D875
@@ -880,10 +880,6 @@ Wire Wire Line
 	7680 1300 7680 1200
 Wire Wire Line
 	7680 1200 7880 1200
-Wire Wire Line
-	8180 1200 8280 1200
-Wire Wire Line
-	8280 1300 8280 1700
 $Comp
 L power:GND #PWR011
 U 1 1 5D48B148
@@ -948,7 +944,7 @@ U 1 1 5D4BE5B9
 P 8280 1200
 F 0 "U2" H 9080 1587 60  0000 C CNN
 F 1 "TPS613221ADBVT" H 9080 1481 60  0000 C CNN
-F 2 "Star_Badge:TPS613221ADBVT" H 9080 1440 60  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 9080 1440 60  0001 C CNN
 F 3 "" H 8280 1200 60  0000 C CNN
 	1    8280 1200
 	1    0    0    -1  
@@ -1003,12 +999,7 @@ F 12 "Active" H 7850 4100 60  0001 L CNN "Status"
 	1    7650 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7930 2700 7950 2700
 Connection ~ 8280 2700
-Connection ~ 7950 2700
-Wire Wire Line
-	7950 2700 8280 2700
 Wire Wire Line
 	7950 3000 8000 3000
 Wire Wire Line
@@ -1138,4 +1129,12 @@ Text Label 10200 2700 0    50   ~ 0
 V_REG
 Text Label 8290 4000 0    50   ~ 0
 V_REG
+NoConn ~ 7950 2800
+NoConn ~ 7950 2900
+Wire Wire Line
+	7950 2700 8280 2700
+Wire Wire Line
+	8280 1700 8280 1300
+Wire Wire Line
+	8280 1200 8180 1200
 $EndSCHEMATC
