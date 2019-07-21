@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name Star_Badge)(type Legacy)(uri ${KIPRJMOD}/Star_Badge.pretty/badgelife_shitty_addon_v169bis.lib)(options "")(descr ""))
+  (lib (name SAO_Header)(type Legacy)(uri ${KIPRJMOD}/Star_Badge.pretty/badgelife_shitty_addon_v169bis.lib)(options "")(descr ""))
+  (lib (name TPS613221ADBVT)(type Legacy)(uri ${KIPRJMOD}/Star_Badge.pretty/TPS613221ADBVT.lib)(options "")(descr ""))
+  (lib (name Star_Badge-rescue)(type Legacy)(uri ${KIPRJMOD}/Star_Badge-rescue.lib)(options "")(descr ""))
 )

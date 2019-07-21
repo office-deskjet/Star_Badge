@@ -208,23 +208,23 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 5D36A7D9
-P 8500 3150
-F 0 "R?" H 8430 3104 50  0000 R CNN
-F 1 "4K7" H 8430 3195 50  0000 R CNN
-F 2 "" V 8430 3150 50  0001 C CNN
-F 3 "~" H 8500 3150 50  0001 C CNN
-	1    8500 3150
+P 8400 5150
+F 0 "R?" H 8330 5104 50  0000 R CNN
+F 1 "4K7" H 8330 5195 50  0000 R CNN
+F 2 "" V 8330 5150 50  0001 C CNN
+F 3 "~" H 8400 5150 50  0001 C CNN
+	1    8400 5150
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5D36ACF8
-P 8490 3720
-F 0 "R?" H 8420 3674 50  0000 R CNN
-F 1 "6K8" H 8420 3765 50  0000 R CNN
-F 2 "" V 8420 3720 50  0001 C CNN
-F 3 "~" H 8490 3720 50  0001 C CNN
-	1    8490 3720
+P 8390 5720
+F 0 "R?" H 8320 5674 50  0000 R CNN
+F 1 "6K8" H 8320 5765 50  0000 R CNN
+F 2 "" V 8320 5720 50  0001 C CNN
+F 3 "~" H 8390 5720 50  0001 C CNN
+	1    8390 5720
 	-1   0    0    1   
 $EndComp
 Text Label 4400 4200 0    50   ~ 0
@@ -601,7 +601,7 @@ SCL_SCK
 Text Label 1910 4500 0    50   ~ 0
 SDA_MOSI
 $Comp
-L Star_Badge:Badgelife_sao_connector_v169bis X?
+L Star_Badge-rescue:Badgelife_sao_connector_v169bis-Star_Badge X?
 U 1 1 5D34142B
 P 1380 6450
 F 0 "X?" H 1708 6496 50  0000 L CNN
@@ -612,7 +612,7 @@ F 3 "" H 1380 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Star_Badge:Badgelife_sao_connector_v169bis X?
+L Star_Badge-rescue:Badgelife_sao_connector_v169bis-Star_Badge X?
 U 1 1 5D34967F
 P 3290 6450
 F 0 "X?" H 3618 6496 50  0000 L CNN
@@ -623,7 +623,7 @@ F 3 "" H 3290 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Star_Badge:Badgelife_sao_connector_v169bis X?
+L Star_Badge-rescue:Badgelife_sao_connector_v169bis-Star_Badge X?
 U 1 1 5D349689
 P 4330 6450
 F 0 "X?" H 4658 6496 50  0000 L CNN
@@ -634,7 +634,7 @@ F 3 "" H 4330 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Star_Badge:Badgelife_sao_connector_v169bis X?
+L Star_Badge-rescue:Badgelife_sao_connector_v169bis-Star_Badge X?
 U 1 1 5D34F2CD
 P 5320 6450
 F 0 "X?" H 5648 6496 50  0000 L CNN
@@ -734,7 +734,7 @@ NoConn ~ 5520 7000
 NoConn ~ 4530 7000
 NoConn ~ 3490 7000
 $Comp
-L Star_Badge:Badgelife_sao_connector_v169bis X?
+L Star_Badge-rescue:Badgelife_sao_connector_v169bis-Star_Badge X?
 U 1 1 5D3433E1
 P 2320 6450
 F 0 "X?" H 2648 6496 50  0000 L CNN
@@ -821,4 +821,147 @@ Wire Wire Line
 	2890 4600 2890 4700
 Text Label 2770 4600 2    50   ~ 0
 Button
+$Comp
+L TPS613221ADBVT:TPS613221ADBVT U?
+U 1 1 5D461A53
+P 8300 2000
+F 0 "U?" H 9100 2387 60  0000 C CNN
+F 1 "TPS613221ADBVT" H 9100 2281 60  0000 C CNN
+F 2 "DBV5" H 9100 2240 60  0001 C CNN
+F 3 "" H 8300 2000 60  0000 C CNN
+	1    8300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery BT?
+U 1 1 5D463379
+P 7700 2300
+F 0 "BT?" H 7808 2346 50  0000 L CNN
+F 1 "Battery" H 7808 2255 50  0000 L CNN
+F 2 "" V 7700 2360 50  0001 C CNN
+F 3 "~" V 7700 2360 50  0001 C CNN
+	1    7700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D46F1C2
+P 8720 3770
+F 0 "C?" H 8835 3816 50  0000 L CNN
+F 1 "C" H 8835 3725 50  0000 L CNN
+F 2 "" H 8758 3620 50  0001 C CNN
+F 3 "~" H 8720 3770 50  0001 C CNN
+	1    8720 3770
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D4717BF
+P 10100 2250
+F 0 "C?" H 10215 2296 50  0000 L CNN
+F 1 "10uF" H 10215 2205 50  0000 L CNN
+F 2 "" H 10138 2100 50  0001 C CNN
+F 3 "~" H 10100 2250 50  0001 C CNN
+	1    10100 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D471DDE
+P 9130 3730
+F 0 "C?" H 9245 3776 50  0000 L CNN
+F 1 "C" H 9245 3685 50  0000 L CNN
+F 2 "" H 9168 3580 50  0001 C CNN
+F 3 "~" H 9130 3730 50  0001 C CNN
+	1    9130 3730
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D471FF8
+P 10500 2250
+F 0 "C?" H 10615 2296 50  0000 L CNN
+F 1 "10uF" H 10615 2205 50  0000 L CNN
+F 2 "" H 10538 2100 50  0001 C CNN
+F 3 "~" H 10500 2250 50  0001 C CNN
+	1    10500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L 4.7uH
+U 1 1 5D4726DA
+P 8050 2000
+F 0 "4.7uH" V 8240 2000 50  0000 C CNN
+F 1 "L" V 8149 2000 50  0000 C CNN
+F 2 "" H 8050 2000 50  0001 C CNN
+F 3 "~" H 8050 2000 50  0001 C CNN
+	1    8050 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 2100 7700 2000
+Wire Wire Line
+	7700 2000 7900 2000
+Wire Wire Line
+	8200 2000 8300 2000
+Wire Wire Line
+	8300 2100 8300 2500
+$Comp
+L power:GND #PWR?
+U 1 1 5D48B148
+P 8300 2500
+F 0 "#PWR?" H 8300 2250 50  0001 C CNN
+F 1 "GND" H 8305 2327 50  0000 C CNN
+F 2 "" H 8300 2500 50  0001 C CNN
+F 3 "" H 8300 2500 50  0001 C CNN
+	1    8300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D48B69C
+P 7700 2500
+F 0 "#PWR?" H 7700 2250 50  0001 C CNN
+F 1 "GND" H 7705 2327 50  0000 C CNN
+F 2 "" H 7700 2500 50  0001 C CNN
+F 3 "" H 7700 2500 50  0001 C CNN
+	1    7700 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 2100 10100 2100
+Connection ~ 10100 2100
+Wire Wire Line
+	10100 2100 10500 2100
+Connection ~ 10500 2100
+Wire Wire Line
+	10500 2100 10800 2100
+$Comp
+L power:GND #PWR?
+U 1 1 5D4A7C8E
+P 10100 2500
+F 0 "#PWR?" H 10100 2250 50  0001 C CNN
+F 1 "GND" H 10105 2327 50  0000 C CNN
+F 2 "" H 10100 2500 50  0001 C CNN
+F 3 "" H 10100 2500 50  0001 C CNN
+	1    10100 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 2500 10100 2400
+$Comp
+L power:GND #PWR?
+U 1 1 5D4AD328
+P 10500 2500
+F 0 "#PWR?" H 10500 2250 50  0001 C CNN
+F 1 "GND" H 10505 2327 50  0000 C CNN
+F 2 "" H 10500 2500 50  0001 C CNN
+F 3 "" H 10500 2500 50  0001 C CNN
+	1    10500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 2500 10500 2400
+Text Label 10800 2100 0    50   ~ 0
+BOOST
 $EndSCHEMATC
