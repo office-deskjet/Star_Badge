@@ -191,20 +191,20 @@ B_PWM
 $Comp
 L Device:R R?
 U 1 1 5D365BF6
-P 9600 1750
-F 0 "R?" H 9530 1704 50  0000 R CNN
-F 1 "6K8" H 9530 1795 50  0000 R CNN
-F 2 "" V 9530 1750 50  0001 C CNN
-F 3 "~" H 9600 1750 50  0001 C CNN
-	1    9600 1750
+P 4400 4550
+F 0 "R?" H 4330 4504 50  0000 R CNN
+F 1 "6K8" H 4330 4595 50  0000 R CNN
+F 2 "" V 4330 4550 50  0001 C CNN
+F 3 "~" H 4400 4550 50  0001 C CNN
+	1    4400 4550
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9600 1600 9600 1400
-Text Label 9600 2100 0    50   ~ 0
+	4400 4400 4400 4200
+Text Label 4400 4900 0    50   ~ 0
 ~RESET
 Wire Wire Line
-	9600 2100 9600 1900
+	4400 4900 4400 4700
 $Comp
 L Device:R R?
 U 1 1 5D36A7D9
@@ -227,7 +227,7 @@ F 3 "~" H 8490 3720 50  0001 C CNN
 	1    8490 3720
 	-1   0    0    1   
 $EndComp
-Text Label 9600 1400 0    50   ~ 0
+Text Label 4400 4200 0    50   ~ 0
 VBUS
 $Comp
 L Device:LED D?
@@ -559,46 +559,46 @@ B_LED_BUS
 $Comp
 L Connector:AVR-ISP-6 J?
 U 1 1 5D3B21F0
-P 9790 3200
-F 0 "J?" H 9511 3296 50  0000 R CNN
-F 1 "AVR-ISP-6" H 9511 3205 50  0000 R CNN
-F 2 "" V 9540 3250 50  0001 C CNN
-F 3 " ~" H 8515 2650 50  0001 C CNN
-	1    9790 3200
+P 1310 4600
+F 0 "J?" H 1031 4696 50  0000 R CNN
+F 1 "AVR-ISP-6" H 1031 4605 50  0000 R CNN
+F 2 "" V 1060 4650 50  0001 C CNN
+F 3 " ~" H 35  4050 50  0001 C CNN
+	1    1310 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9690 2700 9690 2500
+	1210 4100 1210 3900
 Wire Wire Line
-	9690 3800 9690 3600
+	1210 5200 1210 5000
 $Comp
 L power:GND #PWR?
 U 1 1 5D3BBC9C
-P 9690 3800
-F 0 "#PWR?" H 9690 3550 50  0001 C CNN
-F 1 "GND" H 9695 3627 50  0000 C CNN
-F 2 "" H 9690 3800 50  0001 C CNN
-F 3 "" H 9690 3800 50  0001 C CNN
-	1    9690 3800
+P 1210 5200
+F 0 "#PWR?" H 1210 4950 50  0001 C CNN
+F 1 "GND" H 1215 5027 50  0000 C CNN
+F 2 "" H 1210 5200 50  0001 C CNN
+F 3 "" H 1210 5200 50  0001 C CNN
+	1    1210 5200
 	1    0    0    -1  
 $EndComp
-Text Label 9690 2500 0    50   ~ 0
+Text Label 1210 3900 0    50   ~ 0
 VBUS
 Wire Wire Line
-	10390 3000 10190 3000
-Text Label 10390 3000 0    50   ~ 0
+	1910 4400 1710 4400
+Text Label 1910 4400 0    50   ~ 0
 R_PWM__MISO
-Text Label 10390 3300 0    50   ~ 0
+Text Label 1910 4700 0    50   ~ 0
 ~RESET
 Wire Wire Line
-	10390 3300 10190 3300
+	1910 4700 1710 4700
 Wire Wire Line
-	10390 3100 10190 3100
+	1910 4500 1710 4500
 Wire Wire Line
-	10390 3200 10190 3200
-Text Label 10390 3200 0    50   ~ 0
+	1910 4600 1710 4600
+Text Label 1910 4600 0    50   ~ 0
 SCL_SCK
-Text Label 10390 3100 0    50   ~ 0
+Text Label 1910 4500 0    50   ~ 0
 SDA_MOSI
 $Comp
 L Star_Badge:Badgelife_sao_connector_v169bis X?
@@ -764,4 +764,61 @@ Text Label 2520 5900 1    50   ~ 0
 GPIO_2_1
 Text Label 2520 7000 3    50   ~ 0
 GPIO_1_2
+$Comp
+L dk_Tactile-Switches:TL3315NF160Q S?
+U 1 1 5D40D875
+P 3290 4600
+F 0 "S?" H 3290 4947 60  0000 C CNN
+F 1 "TL3315NF160Q" H 3290 4841 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_SMD_4.5x4.5mm_TL3315NF160Q" H 3490 4800 60  0001 L CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010337.pdf" H 3490 4900 60  0001 L CNN
+F 4 "EG4621CT-ND" H 3490 5000 60  0001 L CNN "Digi-Key_PN"
+F 5 "TL3315NF160Q" H 3490 5100 60  0001 L CNN "MPN"
+F 6 "Switches" H 3490 5200 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 3490 5300 60  0001 L CNN "Family"
+F 8 "http://spec_sheets.e-switch.com/specs/P010337.pdf" H 3490 5400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/e-switch/TL3315NF160Q/EG4621CT-ND/1870401" H 3490 5500 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 15V" H 3490 5600 60  0001 L CNN "Description"
+F 11 "E-Switch" H 3490 5700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3490 5800 60  0001 L CNN "Status"
+	1    3290 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3690 4500 3490 4500
+Wire Wire Line
+	3690 4500 3690 4600
+Wire Wire Line
+	3490 4700 3690 4700
+Wire Wire Line
+	3690 4600 3810 4600
+Connection ~ 3690 4600
+Wire Wire Line
+	3690 4600 3690 4700
+Wire Wire Line
+	3810 4600 3810 4700
+$Comp
+L power:GND #PWR?
+U 1 1 5D42305E
+P 3810 4700
+F 0 "#PWR?" H 3810 4450 50  0001 C CNN
+F 1 "GND" H 3815 4527 50  0000 C CNN
+F 2 "" H 3810 4700 50  0001 C CNN
+F 3 "" H 3810 4700 50  0001 C CNN
+	1    3810 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2890 4500 3090 4500
+Wire Wire Line
+	2890 4500 2890 4600
+Wire Wire Line
+	3090 4700 2890 4700
+Wire Wire Line
+	2890 4600 2770 4600
+Connection ~ 2890 4600
+Wire Wire Line
+	2890 4600 2890 4700
+Text Label 2770 4600 2    50   ~ 0
+Button
 $EndSCHEMATC
