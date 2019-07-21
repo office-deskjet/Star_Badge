@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /work/priv/Star_Badge/HW/Star_Badge.sch)
-    (date "Sun 21 Jul 2019 01:06:21 AM PDT")
+    (date "Sun 21 Jul 2019 01:39:41 AM PDT")
     (tool "Eeschema 5.1.2-f72e74a~84~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -273,7 +273,7 @@
       (tstamp 5D4BE5B9))
     (comp (ref U3)
       (value AP7363-33D-13)
-      (footprint Star_Badge:AP7363-33D-13)
+      (footprint TO252-3L)
       (libsource (lib AP7363-33D-13) (part AP7363-33D-13) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D4C140D))
