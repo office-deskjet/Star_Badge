@@ -816,7 +816,7 @@ U 1 1 5D463379
 P 7680 1500
 F 0 "BT1" H 7788 1546 50  0000 L CNN
 F 1 "Battery" H 7788 1455 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_2462_2xAA" V 7680 1560 50  0001 C CNN
+F 2 "Star_Badge:BatteryHolder_Keystone_2462_2xAA" V 7680 1560 50  0001 C CNN
 F 3 "~" V 7680 1560 50  0001 C CNN
 	1    7680 1500
 	1    0    0    -1  

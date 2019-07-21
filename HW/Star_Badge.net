@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /work/priv/Star_Badge/HW/Star_Badge.sch)
-    (date "Sun 21 Jul 2019 01:59:43 AM PDT")
+    (date "Sun 21 Jul 2019 02:31:52 AM PDT")
     (tool "Eeschema 5.1.2-f72e74a~84~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -225,7 +225,7 @@
       (tstamp 5D40D875))
     (comp (ref BT1)
       (value Battery)
-      (footprint Battery:BatteryHolder_Keystone_2462_2xAA)
+      (footprint Star_Badge:BatteryHolder_Keystone_2462_2xAA)
       (datasheet ~)
       (libsource (lib Device) (part Battery) (description "Multiple-cell battery"))
       (sheetpath (names /) (tstamps /))
