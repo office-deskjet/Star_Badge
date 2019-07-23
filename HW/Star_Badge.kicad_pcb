@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 613)
+    (drawings 611)
     (tracks 0)
     (zones 0)
     (modules 47)
@@ -155,7 +155,7 @@
     (add_net "Net-(Q2-Pad2)")
   )
 
-  (module Star_Badge:Badgelife-SAOv169-BADGE-2x3 (layer F.Cu) (tedit 5D36A835) (tstamp 5D37685D)
+  (module Star_Badge:Badgelife-SAOv169-BADGE-2x3 locked (layer F.Cu) (tedit 5D36A835) (tstamp 5D37685D)
     (at 100 30)
     (descr "Through hole straight IDC box header, 2x03, 2.54mm pitch, double rows")
     (tags "Through hole IDC box header THT 2x03 2.54mm double row")
@@ -215,7 +215,7 @@
     )
   )
 
-  (module Star_Badge:Badgelife-SAOv169-BADGE-2x3 (layer F.Cu) (tedit 5D36A835) (tstamp 5D377769)
+  (module Star_Badge:Badgelife-SAOv169-BADGE-2x3 locked (layer F.Cu) (tedit 5D36A835) (tstamp 5D377769)
     (at 28 86)
     (descr "Through hole straight IDC box header, 2x03, 2.54mm pitch, double rows")
     (tags "Through hole IDC box header THT 2x03 2.54mm double row")
@@ -273,8 +273,8 @@
     )
   )
 
-  (module Star_Badge:Badgelife-SAOv169-BADGE-2x3 (layer F.Cu) (tedit 5D36A835) (tstamp 5D375843)
-    (at 54.44 170)
+  (module Star_Badge:Badgelife-SAOv169-BADGE-2x3 locked (layer F.Cu) (tedit 5D36A835) (tstamp 5D375843)
+    (at 56 170)
     (descr "Through hole straight IDC box header, 2x03, 2.54mm pitch, double rows")
     (tags "Through hole IDC box header THT 2x03 2.54mm double row")
     (path /5D349689)
@@ -331,8 +331,8 @@
     )
   )
 
-  (module Star_Badge:Badgelife-SAOv169-BADGE-2x3 (layer F.Cu) (tedit 5D36A835) (tstamp 5D3757C5)
-    (at 146.975 170)
+  (module Star_Badge:Badgelife-SAOv169-BADGE-2x3 locked (layer F.Cu) (tedit 5D36A835) (tstamp 5D3757C5)
+    (at 144 170)
     (descr "Through hole straight IDC box header, 2x03, 2.54mm pitch, double rows")
     (tags "Through hole IDC box header THT 2x03 2.54mm double row")
     (path /5D34967F)
@@ -389,7 +389,7 @@
     )
   )
 
-  (module Star_Badge:Badgelife-SAOv169-BADGE-2x3 (layer F.Cu) (tedit 5D36A835) (tstamp 5D34B978)
+  (module Star_Badge:Badgelife-SAOv169-BADGE-2x3 locked (layer F.Cu) (tedit 5D36A835) (tstamp 5D34B978)
     (at 172 86)
     (descr "Through hole straight IDC box header, 2x03, 2.54mm pitch, double rows")
     (tags "Through hole IDC box header THT 2x03 2.54mm double row")
@@ -4264,10 +4264,8 @@
     (pad 1 thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask))
   )
 
-  (gr_line (start 156.5 185) (end 67.5 64) (layer F.SilkS) (width 0.12))
   (gr_line (start 156.5 185.75) (end 156.5 185) (layer F.SilkS) (width 0.12))
   (gr_line (start 156.25 185.75) (end 156.5 185.75) (layer F.SilkS) (width 0.12))
-  (gr_line (start 131 67.25) (end 44 185.5) (layer F.SilkS) (width 0.12))
   (gr_line (start 100.038258 14.223787) (end 99.942113 14.223582) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 99.942113 14.223582) (end 99.845957 14.227837) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 99.845957 14.227837) (end 99.749672 14.236547) (layer Edge.Cuts) (width 0.1))
