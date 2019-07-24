@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 611)
-    (tracks 65)
+    (tracks 62)
     (zones 0)
     (modules 55)
     (nets 38)
@@ -11,14 +11,14 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user)
     (35 F.Paste user hide)
     (36 B.SilkS user)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user hide)
     (40 Dwgs.User user hide)
@@ -1626,7 +1626,7 @@
   )
 
   (module digikey-footprints:Switch_Tactile_SMD_4.5x4.5mm_TL3315NF160Q (layer B.Cu) (tedit 5D342644) (tstamp 5D380656)
-    (at 142.1 137.75)
+    (at 56.6 115.9)
     (descr http://spec_sheets.e-switch.com/specs/P010337.pdf)
     (path /5D40D875)
     (attr smd)
@@ -1824,7 +1824,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer B.Cu) (tedit 5B36C52B) (tstamp 5D34B884)
-    (at 141.76025 121.09)
+    (at 105.06025 119.29)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5D35E2FC)
@@ -1860,7 +1860,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer B.Cu) (tedit 5B36C52B) (tstamp 5D34B873)
-    (at 141.825 116.75)
+    (at 105.125 114.95)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5D35E0DC)
@@ -1896,7 +1896,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer B.Cu) (tedit 5B36C52B) (tstamp 5D34B862)
-    (at 142.15 109.4)
+    (at 105.45 107.6)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5D3623CC)
@@ -1932,7 +1932,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer B.Cu) (tedit 5B36C52B) (tstamp 5D34B851)
-    (at 141.95 113)
+    (at 105.25 111.2)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5D35DB6E)
@@ -2981,7 +2981,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer B.Cu) (tedit 5A0F774F) (tstamp 5D38D92E)
-    (at 111.525001 180.824999)
+    (at 121.825001 117.124999)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /5D510348)
@@ -3002,7 +3002,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer B.Cu) (tedit 5A0F774F) (tstamp 5D38D936)
-    (at 111.525001 177.774999)
+    (at 121.825001 114.074999)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /5D509EB3)
@@ -3023,7 +3023,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer B.Cu) (tedit 5A0F774F) (tstamp 5D38D93E)
-    (at 114.575001 180.824999)
+    (at 124.875001 117.124999)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /5D5038BC)
@@ -3805,10 +3805,6 @@
   (segment (start 141.5 162.968998) (end 141.52 162.988998) (width 0.4572) (layer B.Cu) (net 15))
   (segment (start 141.5 161.4) (end 141.5 162.968998) (width 0.4572) (layer B.Cu) (net 15))
   (segment (start 141.52 162.988998) (end 141.52 167.528686) (width 0.4572) (layer B.Cu) (net 15))
-  (segment (start 99.675 134.067) (end 99.675 131.283) (width 0.508) (layer B.Cu) (net 15))
-  (segment (start 100.325 134.717) (end 99.675 134.067) (width 0.508) (layer B.Cu) (net 15))
-  (segment (start 99.675 131.283) (end 99.675 130.05) (width 0.508) (layer B.Cu) (net 15))
-  (segment (start 100.325 135.95) (end 100.325 134.717) (width 0.508) (layer B.Cu) (net 15))
   (segment (start 100.343599 139.956401) (end 96.799999 143.500001) (width 0.508) (layer B.Cu) (net 15))
   (segment (start 100.343599 136.643599) (end 100.343599 139.956401) (width 0.508) (layer B.Cu) (net 15))
   (segment (start 96.799999 143.500001) (end 96.3 144) (width 0.508) (layer B.Cu) (net 15))
@@ -3825,6 +3821,7 @@
   (segment (start 93.85 146.8) (end 94.875 147.825) (width 0.508) (layer B.Cu) (net 20))
   (segment (start 94.875 151.725) (end 94.875 152.3) (width 0.508) (layer B.Cu) (net 20))
   (segment (start 93.3 146.8) (end 93.85 146.8) (width 0.508) (layer B.Cu) (net 20))
+  (segment (start 58.725 117.65) (end 54.475 117.65) (width 0.508) (layer B.Cu) (net 23))
 
   (zone (net 0) (net_name "") (layers F&B.Cu) (tstamp 0) (hatch full 0.508)
     (connect_pads (clearance 0.508))

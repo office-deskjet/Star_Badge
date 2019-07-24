@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Star_Badge-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -159,8 +158,6 @@ F 3 "~" H 4850 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4700 3170 4700 3230
-Wire Wire Line
 	5000 3300 5000 3230
 $Comp
 L Device:R R3
@@ -173,20 +170,11 @@ F 3 "~" H 4850 2870 50  0001 C CNN
 	1    4850 2870
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4700 2580 4500 2580
-Wire Wire Line
-	4700 2870 4500 2870
-Wire Wire Line
-	4700 3230 4500 3230
-Connection ~ 4700 3230
-Wire Wire Line
-	4700 3230 4700 3300
-Text Label 4500 2580 2    50   ~ 0
+Text Label 4170 2580 2    50   ~ 0
 R_PWM__MISO
-Text Label 4500 2870 2    50   ~ 0
+Text Label 4160 2870 2    50   ~ 0
 G_PWM
-Text Label 4500 3230 2    50   ~ 0
+Text Label 4160 3230 2    50   ~ 0
 B_PWM
 $Comp
 L Device:R R1
@@ -1187,41 +1175,16 @@ F 3 "~" H 8480 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP5
-U 1 1 5D5038BC
-P 5700 1580
-F 0 "TP5" H 5758 1698 50  0000 L CNN
-F 1 "TestPoint" H 5758 1607 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5900 1580 50  0001 C CNN
-F 3 "~" H 5900 1580 50  0001 C CNN
-	1    5700 1580
-	1    0    0    -1  
-$EndComp
-Connection ~ 5700 1580
-$Comp
-L Connector:TestPoint TP4
-U 1 1 5D509EB3
-P 5600 1290
-F 0 "TP4" H 5658 1408 50  0000 L CNN
-F 1 "TestPoint" H 5658 1317 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5800 1290 50  0001 C CNN
-F 3 "~" H 5800 1290 50  0001 C CNN
-	1    5600 1290
-	1    0    0    -1  
-$EndComp
-Connection ~ 5600 1290
-$Comp
 L Connector:TestPoint TP3
 U 1 1 5D510348
-P 5490 1000
-F 0 "TP3" H 5548 1118 50  0000 L CNN
-F 1 "TestPoint" H 5548 1027 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5690 1000 50  0001 C CNN
-F 3 "~" H 5690 1000 50  0001 C CNN
-	1    5490 1000
+P 4330 2580
+F 0 "TP3" H 4388 2698 50  0000 L CNN
+F 1 "TestPoint" H 4388 2607 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4530 2580 50  0001 C CNN
+F 3 "~" H 4530 2580 50  0001 C CNN
+	1    4330 2580
 	1    0    0    -1  
 $EndComp
-Connection ~ 5490 1000
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5D516409
@@ -1270,4 +1233,46 @@ Wire Wire Line
 Wire Wire Line
 	7680 1200 7680 930 
 Connection ~ 7680 1200
+Wire Wire Line
+	4170 2580 4330 2580
+Connection ~ 4330 2580
+Wire Wire Line
+	4330 2580 4700 2580
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5D3CDD98
+P 4320 2870
+F 0 "TP4" H 4378 2988 50  0000 L CNN
+F 1 "TestPoint" H 4378 2897 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4520 2870 50  0001 C CNN
+F 3 "~" H 4520 2870 50  0001 C CNN
+	1    4320 2870
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4160 2870 4320 2870
+Connection ~ 4320 2870
+Wire Wire Line
+	4320 2870 4700 2870
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5D3E883A
+P 4320 3230
+F 0 "TP5" H 4378 3348 50  0000 L CNN
+F 1 "TestPoint" H 4340 3280 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4520 3230 50  0001 C CNN
+F 3 "~" H 4520 3230 50  0001 C CNN
+	1    4320 3230
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4160 3230 4320 3230
+Connection ~ 4320 3230
+Wire Wire Line
+	4320 3230 4700 3230
+Wire Wire Line
+	4700 3170 4700 3230
+Connection ~ 4700 3230
+Wire Wire Line
+	4700 3230 4700 3300
 $EndSCHEMATC
