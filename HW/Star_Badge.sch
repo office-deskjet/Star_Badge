@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Star_Badge-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -718,10 +718,8 @@ Text Label 5320 7000 3    50   ~ 0
 SCL_SCK
 NoConn ~ 5520 5900
 NoConn ~ 4530 5900
-NoConn ~ 3490 5900
 NoConn ~ 5520 7000
 NoConn ~ 4530 7000
-NoConn ~ 3490 7000
 $Comp
 L SAO_Header:Badgelife_sao_connector_v169bis X2
 U 1 1 5D3433E1
@@ -745,13 +743,13 @@ Text Label 3205 2665 2    50   ~ 0
 GPIO_2_2
 Text Label 3205 2865 2    50   ~ 0
 Button
-Text Label 1580 5900 1    50   ~ 0
-GPIO_1_1
-Text Label 1580 7000 3    50   ~ 0
-GPIO_1_2
 Text Label 2520 5900 1    50   ~ 0
-GPIO_2_1
+GPIO_1_1
 Text Label 2520 7000 3    50   ~ 0
+GPIO_1_2
+Text Label 3490 5900 1    50   ~ 0
+GPIO_2_1
+Text Label 3490 7000 3    50   ~ 0
 GPIO_2_2
 $Comp
 L dk_Tactile-Switches:TL3315NF160Q S1
@@ -1137,4 +1135,6 @@ Wire Wire Line
 	8280 1700 8280 1300
 Wire Wire Line
 	8280 1200 8180 1200
+NoConn ~ 1580 5900
+NoConn ~ 1580 7000
 $EndSCHEMATC
