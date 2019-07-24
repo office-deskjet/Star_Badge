@@ -716,9 +716,9 @@ F 3 "" H 5120 7000 50  0001 C CNN
 $EndComp
 Text Label 5320 7000 3    50   ~ 0
 SCL_SCK
-NoConn ~ 5520 5900
+NoConn ~ 3490 5900
 NoConn ~ 4530 5900
-NoConn ~ 5520 7000
+NoConn ~ 3490 7000
 NoConn ~ 4530 7000
 $Comp
 L SAO_Header:Badgelife_sao_connector_v169bis X2
@@ -747,9 +747,9 @@ Text Label 2520 5900 1    50   ~ 0
 GPIO_1_1
 Text Label 2520 7000 3    50   ~ 0
 GPIO_1_2
-Text Label 3490 5900 1    50   ~ 0
+Text Label 5520 5900 1    50   ~ 0
 GPIO_2_1
-Text Label 3490 7000 3    50   ~ 0
+Text Label 5520 7000 3    50   ~ 0
 GPIO_2_2
 $Comp
 L dk_Tactile-Switches:TL3315NF160Q S1
