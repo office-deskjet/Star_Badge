@@ -3065,7 +3065,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer B.Cu) (tedit 5A0F774F) (tstamp 5D38D94E)
-    (at 117.625001 180.824999)
+    (at 116.55 188.95)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /5D4E7FE0)
@@ -3086,7 +3086,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer B.Cu) (tedit 5A0F774F) (tstamp 5D38D956)
-    (at 117.625001 177.774999)
+    (at 119.35 175.35)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /5D4DAA8C)
@@ -3107,7 +3107,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer B.Cu) (tedit 5A0F774F) (tstamp 5D38D95E)
-    (at 120.675001 180.824999)
+    (at 122.6 183.25)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /5D4CF380)
@@ -3128,7 +3128,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer B.Cu) (tedit 5A0F774F) (tstamp 5D38D966)
-    (at 120.675001 177.774999)
+    (at 125.1 177.65)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /5D5324FC)

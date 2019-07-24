@@ -876,8 +876,6 @@ F 3 "~" H 8030 1200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7680 1300 7680 1200
-Wire Wire Line
-	7680 1200 7880 1200
 $Comp
 L power:GND #PWR011
 U 1 1 5D48B148
@@ -1256,4 +1254,20 @@ Wire Wire Line
 Connection ~ 1740 4500
 Wire Wire Line
 	1740 4500 1710 4500
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5D5324FC
+P 7680 930
+F 0 "TP10" H 7738 1048 50  0000 L CNN
+F 1 "TestPoint" H 7738 957 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7880 930 50  0001 C CNN
+F 3 "~" H 7880 930 50  0001 C CNN
+	1    7680 930 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7680 1200 7880 1200
+Wire Wire Line
+	7680 1200 7680 930 
+Connection ~ 7680 1200
 $EndSCHEMATC
