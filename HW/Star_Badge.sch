@@ -582,9 +582,9 @@ Text Label 1910 4700 0    50   ~ 0
 Wire Wire Line
 	1910 4700 1710 4700
 Wire Wire Line
-	1910 4500 1710 4500
+	1910 4500 1740 4500
 Wire Wire Line
-	1910 4600 1710 4600
+	1910 4600 1880 4600
 Text Label 1910 4600 0    50   ~ 0
 SCL_SCK
 Text Label 1910 4500 0    50   ~ 0
@@ -904,7 +904,7 @@ Wire Wire Line
 	9880 1300 10080 1300
 Connection ~ 10080 1300
 Wire Wire Line
-	10080 1300 10480 1300
+	10080 1300 10260 1300
 Connection ~ 10480 1300
 Wire Wire Line
 	10480 1300 10780 1300
@@ -1108,12 +1108,10 @@ Wire Wire Line
 Wire Wire Line
 	8290 4600 8690 4600
 Connection ~ 8690 4600
-Wire Wire Line
-	9290 4900 9590 4900
 Connection ~ 9290 4900
 Wire Wire Line
 	9290 4900 9290 5000
-Text Label 9590 4900 0    50   ~ 0
+Text Label 9780 4900 2    50   ~ 0
 VBUS
 Wire Wire Line
 	9290 4400 9290 4000
@@ -1137,4 +1135,125 @@ Wire Wire Line
 	8280 1200 8180 1200
 NoConn ~ 1580 5900
 NoConn ~ 1580 7000
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5D4CF380
+P 10260 1250
+F 0 "TP9" H 10318 1368 50  0000 L CNN
+F 1 "TestPoint" H 10318 1277 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10460 1250 50  0001 C CNN
+F 3 "~" H 10460 1250 50  0001 C CNN
+	1    10260 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 10260 1300
+Wire Wire Line
+	10260 1300 10480 1300
+Wire Wire Line
+	10260 1300 10260 1250
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5D4DAA8C
+P 9880 2610
+F 0 "TP8" H 9938 2728 50  0000 L CNN
+F 1 "TestPoint" H 9938 2637 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10080 2610 50  0001 C CNN
+F 3 "~" H 10080 2610 50  0001 C CNN
+	1    9880 2610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9880 2700 9880 2610
+Wire Wire Line
+	9290 4900 9780 4900
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5D4E7FE0
+P 9780 4900
+F 0 "TP7" H 9838 5018 50  0000 L CNN
+F 1 "TestPoint" H 9838 4927 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9980 4900 50  0001 C CNN
+F 3 "~" H 9980 4900 50  0001 C CNN
+	1    9780 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5D4EF785
+P 8280 2500
+F 0 "TP6" H 8222 2618 50  0000 R CNN
+F 1 "TestPoint" H 8222 2527 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8480 2500 50  0001 C CNN
+F 3 "~" H 8480 2500 50  0001 C CNN
+	1    8280 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5D5038BC
+P 5700 1580
+F 0 "TP5" H 5758 1698 50  0000 L CNN
+F 1 "TestPoint" H 5758 1607 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5900 1580 50  0001 C CNN
+F 3 "~" H 5900 1580 50  0001 C CNN
+	1    5700 1580
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 1580
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5D509EB3
+P 5600 1290
+F 0 "TP4" H 5658 1408 50  0000 L CNN
+F 1 "TestPoint" H 5658 1317 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5800 1290 50  0001 C CNN
+F 3 "~" H 5800 1290 50  0001 C CNN
+	1    5600 1290
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 1290
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5D510348
+P 5490 1000
+F 0 "TP3" H 5548 1118 50  0000 L CNN
+F 1 "TestPoint" H 5548 1027 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5690 1000 50  0001 C CNN
+F 3 "~" H 5690 1000 50  0001 C CNN
+	1    5490 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 5490 1000
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5D516409
+P 1740 4120
+F 0 "TP1" H 1798 4238 50  0000 L CNN
+F 1 "TestPoint" H 1798 4147 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1940 4120 50  0001 C CNN
+F 3 "~" H 1940 4120 50  0001 C CNN
+	1    1740 4120
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5D51C1A5
+P 1880 4290
+F 0 "TP2" H 1938 4408 50  0000 L CNN
+F 1 "TestPoint" H 1938 4317 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2080 4290 50  0001 C CNN
+F 3 "~" H 2080 4290 50  0001 C CNN
+	1    1880 4290
+	1    0    0    -1  
+$EndComp
+Connection ~ 1880 4600
+Wire Wire Line
+	1880 4600 1710 4600
+Wire Wire Line
+	1880 4290 1880 4600
+Wire Wire Line
+	1740 4120 1740 4500
+Connection ~ 1740 4500
+Wire Wire Line
+	1740 4500 1710 4500
 $EndSCHEMATC
