@@ -2157,7 +2157,7 @@
   )
 
   (module Star_Badge:1204_SIDE_VIEW_LED locked (layer B.Cu) (tedit 5CF49E62) (tstamp 5D34B7A4)
-    (at 132.4 86.5 40)
+    (at 132.4 86.35 40)
     (path /5D379E68)
     (fp_text reference D14 (at 0.032602 -2.061295 40) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
@@ -2192,7 +2192,7 @@
   )
 
   (module Star_Badge:1204_SIDE_VIEW_LED locked (layer B.Cu) (tedit 5CF49E62) (tstamp 5D34B78F)
-    (at 141.4 86.5 320)
+    (at 141.4 86.35 320)
     (path /5D379E5E)
     (fp_text reference D13 (at 0.044002 -2.125574 320) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
@@ -2472,7 +2472,7 @@
   )
 
   (module Star_Badge:1204_SIDE_VIEW_LED locked (layer B.Cu) (tedit 5CF49E62) (tstamp 5D37EC4F)
-    (at 58.6 86.5 40)
+    (at 58.6 86.35 40)
     (path /5D36F468)
     (fp_text reference D5 (at 0.032602 -2.061295 40) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
@@ -2507,7 +2507,7 @@
   )
 
   (module Star_Badge:1204_SIDE_VIEW_LED locked (layer B.Cu) (tedit 5CF49E62) (tstamp 5D34B6D2)
-    (at 67.6 86.5 320)
+    (at 67.6 86.35 320)
     (path /5D36D5BD)
     (fp_text reference D4 (at 0.031676 -1.984691 320) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
@@ -2577,7 +2577,7 @@
   )
 
   (module Star_Badge:1204_SIDE_VIEW_LED locked (layer B.Cu) (tedit 5CF49E62) (tstamp 5D37DBBA)
-    (at 95.5 59.65 40)
+    (at 95.5 59.5 40)
     (path /5D38224D)
     (fp_text reference D2 (at 0 -2.12132 40) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
@@ -2612,7 +2612,7 @@
   )
 
   (module Star_Badge:1204_SIDE_VIEW_LED locked (layer B.Cu) (tedit 5CF49E62) (tstamp 5D37DB12)
-    (at 104.5 59.65 320)
+    (at 104.5 59.5 320)
     (path /5D382243)
     (fp_text reference D1 (at -0.059752 -2.208869 320) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
