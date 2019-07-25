@@ -253,7 +253,7 @@ Wire Wire Line
 	6500 2290 6500 2580
 Wire Wire Line
 	6500 2290 6700 2290
-Text Label 6700 2290 0    50   ~ 0
+Text Label 6700 5290 0    50   ~ 0
 EN_RGB1
 $Comp
 L Device:LED D7
@@ -301,7 +301,7 @@ Wire Wire Line
 	6500 3290 6500 3580
 Wire Wire Line
 	6500 3290 6700 3290
-Text Label 6700 3290 0    50   ~ 0
+Text Label 6700 1290 0    50   ~ 0
 EN_RGB2
 $Comp
 L Device:LED D10
@@ -349,7 +349,7 @@ Wire Wire Line
 	6500 4290 6500 4580
 Wire Wire Line
 	6500 4290 6700 4290
-Text Label 6700 4290 0    50   ~ 0
+Text Label 6700 2290 0    50   ~ 0
 EN_RGB3
 $Comp
 L Device:LED D13
@@ -397,7 +397,7 @@ Wire Wire Line
 	6500 5290 6500 5580
 Wire Wire Line
 	6500 5290 6700 5290
-Text Label 6700 5290 0    50   ~ 0
+Text Label 6700 3290 0    50   ~ 0
 EN_RGB4
 $Comp
 L Device:LED D1
@@ -445,7 +445,7 @@ Wire Wire Line
 	6500 1290 6500 1580
 Wire Wire Line
 	6500 1290 6700 1290
-Text Label 6700 1290 0    50   ~ 0
+Text Label 6700 4290 0    50   ~ 0
 EN_RGB0
 Wire Wire Line
 	5490 1000 6000 1000
@@ -1276,4 +1276,14 @@ Wire Wire Line
 Connection ~ 4700 3230
 Wire Wire Line
 	4700 3230 4700 3300
+Text Notes 6700 1200 0    50   ~ 0
+Star 1
+Text Notes 6700 2210 0    50   ~ 0
+Star 5
+Text Notes 6700 3200 0    50   ~ 0
+Star 4
+Text Notes 6700 4200 0    50   ~ 0
+Star 3
+Text Notes 6700 5200 0    50   ~ 0
+Star 2
 $EndSCHEMATC
